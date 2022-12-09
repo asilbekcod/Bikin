@@ -1,0 +1,70 @@
+.doctor{
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+.doctors{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px ;
+    transition: bottom 0.4s;
+}
+.doctors2{
+    position: absolute;
+    left: 0;
+    bottom: -38px;
+    right: 0;
+    height: 48px;
+    transition: bottom ease-in-out 0.4s;
+    text-align: center;
+}
+.doclink{
+    transition: color 0.3s;
+    color: rgba(255, 255, 255, 0.7) !important;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.doc:hover .doctor{
+    background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+.doc:hover .doctors{
+    bottom: 60px;
+    transition: bottom 0.4s;
+}
+.doc:hover .doctors2{
+  bottom: 0;
+  transition: bottom ease-in-out 0.4s;
+}
+.doclink:hover{
+    color:#fff !important;
+}
+
+.css-8wqzlf-MuiGrid-root{
+    margin-left: -11px !important;
+}
+
+/* .css-yw020d-MuiAccordionSummary-expandIconWrapper:hover{
+    color:"red" !important;
+}
+.css-18wihhb-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+    color: red !important;
+} */
+
+#dd:focus .icon{
+    color:#3b4ef8 !important;
+}
+#dd:focus{
+    color:#3b4ef8 !important;
+}
+#dd:hover .icon{
+    color:#3b4ef8 !important;
+}

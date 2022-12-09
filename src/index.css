@@ -1,0 +1,10 @@
+*{
+    max-width: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#aboutHomHov:hover{
+    width: 100px !important;
+    transition: .5s;
+}
